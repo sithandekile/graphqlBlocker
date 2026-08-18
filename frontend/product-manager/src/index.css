@@ -109,3 +109,13 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+.product {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(300px));
+  align-items: center;
+
+  gap: 8px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
